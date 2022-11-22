@@ -9,6 +9,9 @@
           margin: 0;
           padding: 0;
       }
+      :root{
+        --primary-color: rgba(236, 67, 37, 0.925);
+      }
 header {
 
     min-height: 500px;
@@ -54,7 +57,7 @@ nav ul li{
 }
 nav ul li:hover{
     color: #fff;
-    background: #ff4500;
+    background: var(--primary-color);
 }
 .col-1{
     margin: 10px;
@@ -75,7 +78,7 @@ nav ul li:hover{
 }
 .btn{
     display: inline-block;
-    background: orangered;
+    background: var(--primary-color);
     color: white;
     padding: 7px 15px;
     margin-top: 10px;
@@ -87,7 +90,7 @@ nav ul li:hover{
 }
 .btn:hover{
     background-color: #fff;
-    color: orangered;
+    color: var(--primary-color);
 }
 .small-container{
           /* max-width: 1300px; */
@@ -114,7 +117,7 @@ nav ul li:hover{
            padding: 50px 30px;
            margin: 10px;
           min-width: 300px;
-          background: orangered;
+          background:var(--primary-color);
           border-radius: 20px;
           box-shadow:0 0 20px 0 rgb(141, 136, 136);
           cursor: pointer;
@@ -144,7 +147,7 @@ nav ul li:hover{
     padding: 5px 10px;
 
     margin: 0%;
-    background: orangered;
+    background: var(--primary-color);
     width: 100%;
    
 }
@@ -157,7 +160,7 @@ nav ul li:hover{
 .btn2 {
     display: inline-block;
     background: white;
-    color: orangered;
+    color: var(--primary-color);
     padding: 15px 40px;
     margin-top: 10px;
     border-radius: 20px;
@@ -178,7 +181,7 @@ nav ul li:hover{
 .btn3{
     display: inline-block;
     background: white;
-    color: orangered;
+    color: var(--primary-color);
     padding: 15px 20px;
     margin-top: 10px;
     border-radius: 10px;
@@ -192,7 +195,6 @@ nav ul li:hover{
 .footer{
     width: 100%;
     padding: 5px;
-    border: 1px solid red;
     background: black;
 }
 .footer p{
@@ -232,7 +234,7 @@ nav ul li:hover{
         flex-direction: column;
         top: 70px;
         right: 0;
-        background: orangered;
+        background:var(--primary-color);
         width: 100%;
         overflow: hidden;
         transition: max-height 0.5s;
@@ -261,7 +263,7 @@ nav ul li:hover{
     }
     .navbar{
         width: 100%;
-        background: orangered;
+        background: var(--primary-color);
         padding: auto;
         margin: auto;
         display: block;
@@ -331,7 +333,6 @@ col-1 p{
 
     .col-1 p{
         margin-top: 0;
-        border: 1px solid blue;
         margin-bottom: 0px;
         margin-left: 20px;
         
@@ -352,7 +353,7 @@ col-1 p{
         position: absolute;
         right: 0;
         margin-top: -40px;
-        background: orangered;
+        background: var(--primary-color);
         width: 100%;
         overflow: hidden;
         transition: max-height 0.5s;
@@ -375,7 +376,7 @@ col-1 p{
         color: white;
     } */
     nav ul li:hover{
-        color: #ff4500;
+        color:var(--primary-color);
         background: #fff;
     }
     
@@ -390,7 +391,7 @@ col-1 p{
     }
     .navbar{
         width: 100%;
-        background: orangered;
+        background: var(--primary-color);
         padding: auto;
         margin: auto;
     }
