@@ -28,10 +28,11 @@ header {
     margin-top: 10px;
 }
 .navbar{
-    margin: auto;
-    /* display: flex; */
+    margin: 30px 20px;
+    display: flex;
     display: inline;
-    /* border: 1px solid black; */
+    /* border: 1px solid orangered; */
+
     
 }
 nav ul{
