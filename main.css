@@ -31,7 +31,7 @@ header {
     margin: auto;
     /* display: flex; */
     display: inline;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     
 }
 nav ul{
@@ -68,7 +68,7 @@ nav ul li:hover{
 }
 .col-1 p{
     color: #fff;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 5px;
     margin: 10px;
 }
