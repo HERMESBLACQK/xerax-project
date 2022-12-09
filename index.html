@@ -6,45 +6,65 @@
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <link rel="stylesheet" href="main.css">
           <link rel="stylesheet" href="./fontsawesome/css/all.css">
-          <title>tripsplusmore</title>
+          <link rel="stylesheet" href="./mobile.css">
+          <title>Document</title>
 </head>
 <body>
-  <header>
+  <div class="backdrop" onclick="showme()">
 
-    <div class="header">
-     <div class="container">
-     
-      <div class="navbar">
-    
-        <nav>
-          <div class="logo">
-            <a href="#"> EXPLORER</a>
-          </div>
-          <ul id="MenuItems">
-          
+  </div>
+  <header>
+    <nav class="moblie">
+      <div class="mobile-logo">
+        <h2>
+          <a href="#">EXPLORER</a> 
+         </h2>
+      </div>
+      <div class="hamburger" onclick="showme()">
+        <div class="menu">
+        </div>
+      </div>
   
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>CONTACT</li>
-  </ul>
-</nav>
-<!-- <img src="menu (1).png" class="menu-icon" onclick="menutoggle()"> -->
-<i class="fa-solid fa-bars" id="menu-icon" onclick="menutoggle()"></i>
-      </div>
-      <div class="col-1">
-        <h1>EXPLORE THE WORLD</h1>
-        <br>    
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam similique,<br>tenetur aperiam cum accusamus vitae voluptatibus  unde error<br>expedita veniam temporibus nihil id commodi est incidunt cupiditate sint<br>ut quo.<br>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, atque?<br>Hic praesentium iste accusantium voluptate possimus voluptatibus voluptates,<br>fugiat eaque? A velit facere repellat labore, quos eos<br>placeat atque pariatur.<br>
-          <a href="" class="btn">LEARN MORE&nbsp;  &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
-        </p>
-      </div>
-     </div>
-    
+
+    </nav>
+    <div class="mobile-link">
+      <ul class="link">
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>CONTACT</li>
+      </ul>
     </div>
-          
-          
+
+
+
+
+
+
+  <nav class="desktop">
+    <div class="logo">
+      <h2>
+       <a href="#">EXPLORER</a> 
+      </h2>
     </div>
+    <div class="navbar">
+      <ul>
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>CONTACT</li>
+      </ul>
+    </div>
+
+  </nav>
+  <div class="content">
+    <h1>
+      EXPLORE THE WORLD
+    </h1>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing <br> elit.  Quo, reprehenderit? Hic aperiam nihil consequuntur similique amet. Reprehenderit at iure explicabo dolorem, <br> incidunt excepturi, fugiat ab quam, tenetur suscipit perspiciatis quis! <br>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Voluptate quaerat quisquam at voluptatum voluptas, cumque molestias minima nam facilis 
+    </p>
+    <button class="btn">Learn more <i class="fa-solid fa-arrow-right header-icons"></i> </button>
+  </div>
   </header>
           <div class="small-container">
             <div class="row">
@@ -93,11 +113,12 @@
             </div>
            
           <div class="step">
-            <a href="" class="btn2">GET STARTED</a>
-           <h3>EXPLORER</h3>
-          
+            <h3>EXPLORER</h3>
+            
+            <button class="btn2">GET STARTED</button>
           
             </div>
+           
             <div class="footer">
              
              <p> &copy; 2022 Explorer, Built at Xeraxlabs Internship.</p>
@@ -116,27 +137,8 @@
           
 
 
-            <script>
-              var MenuItems = document.getElementById("MenuItems");
-              
-              MenuItems.style.maxHeight = "0px";
-        
-              function menutoggle()
-              {
-                if(MenuItems.style.maxHeight == "0px")
-        
-                {
-                MenuItems.style.maxHeight ="300px";
-              }
-              else{
-                MenuItems.style.maxHeight = "0px";
-              }
-        
-              }
-              
-        
-              
-        
+            <script src="main.js">
+             
             </script>
       
 </body>
