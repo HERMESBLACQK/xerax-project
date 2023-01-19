@@ -25,6 +25,7 @@
 }
 .backdrop-show{
     display: block;
+    position: absolute;
 }
 header {
 
